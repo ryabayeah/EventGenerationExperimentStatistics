@@ -28,7 +28,7 @@ namespace WindowsFormsApp1
             aboba[1] = (double)Num2.Value;
             aboba[2] = (double)Num3.Value;
             aboba[3] = (double)Num4.Value;
-            aboba[4] = 1 - aboba[0] + aboba[1] + aboba[2] + aboba[3];
+            aboba[4] = 1 - (aboba[0] + aboba[1] + aboba[2] + aboba[3]);
             if (aboba[4] <= 0)
             {
                 return;
